@@ -43,6 +43,11 @@ def send_stick(id, number):
 def send_photo(id, url):
     vk.messages.send(user_id = id, attachment = url, random_id = 0)
 
+#Функции вместе
+def send_photo_wrapper(user_id, photo_id):
+    sender(user_id, 'Лови')
+    send_photo(id, photo_id)
+
 for event in longpoll.listen():
     if event.type == VkEventType.MESSAGE_NEW:
         if event.to_me:
@@ -128,225 +133,170 @@ for event in longpoll.listen():
 
 #Пикчи
             elif msg == '1':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239017')
+                send_photo_wrapper(id, 'photo-201491242_457239017')
 
             elif msg == '2':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239018')
+                send_photo_wrapper(id, 'photo-201491242_457239018')
 
             elif msg == '3':
-                sender(id, 'Лови')
-                send_photo(id, 'photo385821903_457251996')
+                send_photo_wrapper(id, 'photo385821903_457251996')
 
             elif msg == '4':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-181795746_457240618')
+                send_photo_wrapper(id, 'photo-181795746_457240618')
 
             elif msg == '5':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-181795746_457240611')
+                send_photo_wrapper(id, 'photo-181795746_457240611')
 
             elif msg == '6':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239019')
+                send_photo_wrapper(id, 'photo-201491242_457239019')
 
             elif msg == '7':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239020')
+                send_photo_wrapper(id, 'photo-201491242_457239020')
 
             elif msg == '8':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239022')
+                send_photo_wrapper(id, 'photo-201491242_457239022')
 
             elif msg == '9':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239024')
+                send_photo_wrapper(id, 'photo-201491242_457239024')
 
             elif msg == '10':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239025')
+                send_photo_wrapper(id, 'photo-201491242_457239025')
 
             elif msg == '11':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239026')
+                send_photo_wrapper(id, 'photo-201491242_457239026')
 
             elif msg == '12':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239027')
+                send_photo_wrapper(id, 'photo-201491242_457239027')
 
             elif msg == '13':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239028')
+                send_photo_wrapper(id, 'photo-201491242_457239028')
 
             elif msg == '14':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239029')
+                send_photo_wrapper(id, 'photo-201491242_457239029')
 
             elif msg == '15':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239030')
+                send_photo_wrapper(id, 'photo-201491242_457239030')
 
             elif msg == '16':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239031')
+                send_photo_wrapper(id, 'photo-201491242_457239031')
 
             elif msg == '17':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239032')
+                send_photo_wrapper(id, 'photo-201491242_457239032')
 
             elif msg == '18':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239033')
+                send_photo_wrapper(id, 'photo-201491242_457239033')
 
             elif msg == '19':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239034')
+                send_photo_wrapper(id, 'photo-201491242_457239034')
 
             elif msg == '20':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239035')
+                send_photo_wrapper(id, 'photo-201491242_457239035')
 
             elif msg == '21':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239036')
+                send_photo_wrapper(id, 'photo-201491242_457239036')
 
             elif msg == '22':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239037')
+                send_photo_wrapper(id, 'photo-201491242_457239037')
 
             elif msg == '23':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239038')
+                send_photo_wrapper(id, 'photo-201491242_457239038')
 
             elif msg == '24':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239040')
+                send_photo_wrapper(id, 'photo-201491242_457239040')
 
             elif msg == '25':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239041')
+                send_photo_wrapper(id, 'photo-201491242_457239041')
 
             elif msg == '26':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239042')
+                send_photo_wrapper(id, 'photo-201491242_457239042')
 
             elif msg == '27':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239043')
+                send_photo_wrapper(id, 'photo-201491242_457239043')
 
             elif msg == '28':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239044')
+                send_photo_wrapper(id, 'photo-201491242_457239044')
 
             elif msg == '29':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239045')
+                send_photo_wrapper(id, 'photo-201491242_457239045')
 
             elif msg == '30':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239046')
+                send_photo_wrapper(id, 'photo-201491242_457239046')
 
             elif msg == '31':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239047')
+                send_photo_wrapper(id, 'photo-201491242_457239047')
 
             elif msg == '32':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239048')
+                send_photo_wrapper(id, 'photo-201491242_457239048')
 
             elif msg == '33':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239049')
+                send_photo_wrapper(id, 'photo-201491242_457239049')
 
             elif msg == '34':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239050')
+                send_photo_wrapper(id, 'photo-201491242_457239050')
 
             elif msg == '35':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239051')
+                send_photo_wrapper(id, 'photo-201491242_457239051')
 
             elif msg == '36':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239052')
+                send_photo_wrapper(id, 'photo-201491242_457239052')
 
             elif msg == '37':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239053')
+                send_photo_wrapper(id, 'photo-201491242_457239053')
 
             elif msg == '38':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239054')
+                send_photo_wrapper(id, 'photo-201491242_457239054')
 
             elif msg == '39':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239055')
+                send_photo_wrapper(id, 'photo-201491242_457239055')
 
             elif msg == '40':
-                sender(id, 'Лови')
-                send_photo(id, 'photo-201491242_457239056')
+                send_photo_wrapper(id, 'photo-201491242_457239056')
 
 
 
 
 #Видео
             elif msg == '01':
-                sender(id, 'Лови')
-                send_photo(id, 'video-201426244_456239017')
+                send_photo_wrapper(id, 'video-201426244_456239017')
 
             elif msg == '02':
-                sender(id, 'Лови')
-                send_photo(id, 'video-193098763_456245282')
+                send_photo_wrapper(id, 'video-193098763_456245282')
 
             elif msg == '03':
-                sender(id, 'Лови')
-                send_photo(id, 'video256403283_456240327')
+                send_photo_wrapper(id, 'video256403283_456240327')
 
             elif msg == '04':
-                sender(id, 'Лови')
-                send_photo(id, 'video111989041_169786008')
+                send_photo_wrapper(id, 'video111989041_169786008')
 
             elif msg == '05':
-                sender(id, 'Лови')
-                send_photo(id, 'video355871213_456239324')
+                send_photo_wrapper(id, 'video355871213_456239324')
 
             elif msg == '06':
-                sender(id, 'Лови')
-                send_photo(id, 'video-88851361_456239968')
+                send_photo_wrapper(id, 'video-88851361_456239968')
 
             elif msg == '07':
-                sender(id, 'Лови')
-                send_photo(id, 'video-173250963_456239103')
+                send_photo_wrapper(id, 'video-173250963_456239103')
 
             elif msg == '08':
-                sender(id, 'Лови')
-                send_photo(id, 'video348606941_456239057')
+                send_photo_wrapper(id, 'video348606941_456239057')
 
             elif msg == '09':
-                sender(id, 'Лови')
-                send_photo(id, 'video-145709015_456239975')
+                send_photo_wrapper(id, 'video-145709015_456239975')
 
             elif msg == '010':
-                sender(id, 'Лови')
-                send_photo(id, 'video-146305289_456240971')
+                send_photo_wrapper(id, 'video-146305289_456240971')
 
             elif msg == '011':
-                sender(id, 'Лови')
-                send_photo(id, 'video-61052294_456241839')
+                send_photo_wrapper(id, 'video-61052294_456241839')
 
             elif msg == '012':
-                sender(id, 'Лови')
-                send_photo(id, 'video-61052294_456240884')
+                send_photo_wrapper(id, 'video-61052294_456240884')
 
             elif msg == '013':
-                sender(id, 'Лови')
-                send_photo(id, 'video140366885_456240402')
+                send_photo_wrapper(id, 'video140366885_456240402')
 
             elif msg == '014':
-                sender(id, 'Лови')
-                send_photo(id, 'video-184128423_456239051')
+                send_photo_wrapper(id, 'video-184128423_456239051')
 
             elif msg == '015':
-                sender(id, 'Лови')
-                send_photo(id, 'video337200561_456239415')
+                send_photo_wrapper(id, 'video337200561_456239415')
