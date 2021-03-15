@@ -1,6 +1,9 @@
 import vk_api, json
 from vk_api.longpoll import VkLongPoll, VkEventType
 
+with open('data_id.json') as k:
+    dload = json.load(k)
+
 with open('config.json') as f:
     templates = json.load(f)
 
@@ -131,172 +134,173 @@ for event in longpoll.listen():
 
 
 
+
 #Пикчи
             elif msg == '1':
-                send_photo_wrapper(id, 'photo-201491242_457239017')
+                send_photo_wrapper(id, dload['1'])
 
             elif msg == '2':
-                send_photo_wrapper(id, 'photo-201491242_457239018')
+                send_photo_wrapper(id, dload['2'])
 
             elif msg == '3':
-                send_photo_wrapper(id, 'photo385821903_457251996')
+                send_photo_wrapper(id, dload['3'])
 
             elif msg == '4':
-                send_photo_wrapper(id, 'photo-181795746_457240618')
+                send_photo_wrapper(id, dload['4'])
 
             elif msg == '5':
-                send_photo_wrapper(id, 'photo-181795746_457240611')
+                send_photo_wrapper(id, dload['5'])
 
             elif msg == '6':
-                send_photo_wrapper(id, 'photo-201491242_457239019')
+                send_photo_wrapper(id, dload['6'])
 
             elif msg == '7':
-                send_photo_wrapper(id, 'photo-201491242_457239020')
+                send_photo_wrapper(id, dload['7'])
 
             elif msg == '8':
-                send_photo_wrapper(id, 'photo-201491242_457239022')
+                send_photo_wrapper(id, dload['8'])
 
             elif msg == '9':
-                send_photo_wrapper(id, 'photo-201491242_457239024')
+                send_photo_wrapper(id, dload['9'])
 
             elif msg == '10':
-                send_photo_wrapper(id, 'photo-201491242_457239025')
+                send_photo_wrapper(id, dload['10'])
 
             elif msg == '11':
-                send_photo_wrapper(id, 'photo-201491242_457239026')
+                send_photo_wrapper(id, dload['11'])
 
             elif msg == '12':
-                send_photo_wrapper(id, 'photo-201491242_457239027')
+                send_photo_wrapper(id, dload['12'])
 
             elif msg == '13':
-                send_photo_wrapper(id, 'photo-201491242_457239028')
+                send_photo_wrapper(id, dload['13'])
 
             elif msg == '14':
-                send_photo_wrapper(id, 'photo-201491242_457239029')
+                send_photo_wrapper(id, dload['14'])
 
             elif msg == '15':
-                send_photo_wrapper(id, 'photo-201491242_457239030')
+                send_photo_wrapper(id, dload['15'])
 
             elif msg == '16':
-                send_photo_wrapper(id, 'photo-201491242_457239031')
+                send_photo_wrapper(id, dload['16'])
 
             elif msg == '17':
-                send_photo_wrapper(id, 'photo-201491242_457239032')
+                send_photo_wrapper(id, dload['17'])
 
             elif msg == '18':
-                send_photo_wrapper(id, 'photo-201491242_457239033')
+                send_photo_wrapper(id, dload['18'])
 
             elif msg == '19':
-                send_photo_wrapper(id, 'photo-201491242_457239034')
+                send_photo_wrapper(id, dload['19'])
 
             elif msg == '20':
-                send_photo_wrapper(id, 'photo-201491242_457239035')
+                send_photo_wrapper(id, dload['20'])
 
             elif msg == '21':
-                send_photo_wrapper(id, 'photo-201491242_457239036')
+                send_photo_wrapper(id, dload['21'])
 
             elif msg == '22':
-                send_photo_wrapper(id, 'photo-201491242_457239037')
+                send_photo_wrapper(id, dload['22'])
 
             elif msg == '23':
-                send_photo_wrapper(id, 'photo-201491242_457239038')
+                send_photo_wrapper(id, dload['23'])
 
             elif msg == '24':
-                send_photo_wrapper(id, 'photo-201491242_457239040')
+                send_photo_wrapper(id, dload['24'])
 
             elif msg == '25':
-                send_photo_wrapper(id, 'photo-201491242_457239041')
+                send_photo_wrapper(id, dload['25'])
 
             elif msg == '26':
-                send_photo_wrapper(id, 'photo-201491242_457239042')
+                send_photo_wrapper(id, dload['26'])
 
             elif msg == '27':
-                send_photo_wrapper(id, 'photo-201491242_457239043')
+                send_photo_wrapper(id, dload['27'])
 
             elif msg == '28':
-                send_photo_wrapper(id, 'photo-201491242_457239044')
+                send_photo_wrapper(id, dload['28'])
 
             elif msg == '29':
-                send_photo_wrapper(id, 'photo-201491242_457239045')
+                send_photo_wrapper(id, dload['29'])
 
             elif msg == '30':
-                send_photo_wrapper(id, 'photo-201491242_457239046')
+                send_photo_wrapper(id, dload['30'])
 
             elif msg == '31':
-                send_photo_wrapper(id, 'photo-201491242_457239047')
+                send_photo_wrapper(id, dload['31'])
 
             elif msg == '32':
-                send_photo_wrapper(id, 'photo-201491242_457239048')
+                send_photo_wrapper(id, dload['32'])
 
             elif msg == '33':
-                send_photo_wrapper(id, 'photo-201491242_457239049')
+                send_photo_wrapper(id, dload['33'])
 
             elif msg == '34':
-                send_photo_wrapper(id, 'photo-201491242_457239050')
+                send_photo_wrapper(id, dload['34'])
 
             elif msg == '35':
-                send_photo_wrapper(id, 'photo-201491242_457239051')
+                send_photo_wrapper(id, dload['35'])
 
             elif msg == '36':
-                send_photo_wrapper(id, 'photo-201491242_457239052')
+                send_photo_wrapper(id, dload['36'])
 
             elif msg == '37':
-                send_photo_wrapper(id, 'photo-201491242_457239053')
+                send_photo_wrapper(id, dload['37'])
 
             elif msg == '38':
-                send_photo_wrapper(id, 'photo-201491242_457239054')
+                send_photo_wrapper(id, dload['38'])
 
             elif msg == '39':
-                send_photo_wrapper(id, 'photo-201491242_457239055')
+                send_photo_wrapper(id, dload['39'])
 
             elif msg == '40':
-                send_photo_wrapper(id, 'photo-201491242_457239056')
+                send_photo_wrapper(id, dload['40'])
 
 
 
 
 #Видео
             elif msg == '01':
-                send_photo_wrapper(id, 'video-201426244_456239017')
+                send_photo_wrapper(id, dload['01'])
 
             elif msg == '02':
-                send_photo_wrapper(id, 'video-193098763_456245282')
+                send_photo_wrapper(id, dload['02'])
 
             elif msg == '03':
-                send_photo_wrapper(id, 'video256403283_456240327')
+                send_photo_wrapper(id, dload['03'])
 
             elif msg == '04':
-                send_photo_wrapper(id, 'video111989041_169786008')
+                send_photo_wrapper(id, dload['04'])
 
             elif msg == '05':
-                send_photo_wrapper(id, 'video355871213_456239324')
+                send_photo_wrapper(id, dload['05'])
 
             elif msg == '06':
-                send_photo_wrapper(id, 'video-88851361_456239968')
+                send_photo_wrapper(id, dload['06'])
 
             elif msg == '07':
-                send_photo_wrapper(id, 'video-173250963_456239103')
+                send_photo_wrapper(id, dload['07'])
 
             elif msg == '08':
-                send_photo_wrapper(id, 'video348606941_456239057')
+                send_photo_wrapper(id, dload['08'])
 
             elif msg == '09':
-                send_photo_wrapper(id, 'video-145709015_456239975')
+                send_photo_wrapper(id, dload['09'])
 
             elif msg == '010':
-                send_photo_wrapper(id, 'video-146305289_456240971')
+                send_photo_wrapper(id, dload['010'])
 
             elif msg == '011':
-                send_photo_wrapper(id, 'video-61052294_456241839')
+                send_photo_wrapper(id, dload['011'])
 
             elif msg == '012':
-                send_photo_wrapper(id, 'video-61052294_456240884')
+                send_photo_wrapper(id, dload['012'])
 
             elif msg == '013':
-                send_photo_wrapper(id, 'video140366885_456240402')
+                send_photo_wrapper(id, dload['013'])
 
             elif msg == '014':
-                send_photo_wrapper(id, 'video-184128423_456239051')
+                send_photo_wrapper(id, dload['014'])
 
             elif msg == '015':
-                send_photo_wrapper(id, 'video337200561_456239415')
+                send_photo_wrapper(id, dload['015'])
